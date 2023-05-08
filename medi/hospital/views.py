@@ -16,7 +16,7 @@ from .models import hos_list
 
 def home(request):
     auth_logout(request)
-    return render(request,'boot.html')
+    return render(request,'index.html')
 
 
 
